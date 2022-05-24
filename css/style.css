@@ -1,3 +1,7 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -16,8 +20,9 @@ header{
 #menu{
     background-color: rgba(4, 4, 17, 0.548);
     width: 35vw;
-    height: 80vh;
+    height: 82vh;
     margin: 30px 10px 0px 30px;
+    border-radius: 20px;
 
 }
 #content{
@@ -26,6 +31,7 @@ header{
     border-radius: 30px;
     margin: 30px 30px 0px 0px;
     float:  right;
+    border-radius: 20px;
 }
 
 .contentChild{
@@ -33,4 +39,213 @@ header{
     width: 50vw;
     background-color: rgba(14, 14, 66, 0.685);
     margin-bottom: 5vh;
+}
+
+figure{
+    background-image: url(../img/fotoMinha.jpg);
+    display: block;
+    width: 15vw;
+    height: 15vw;
+    margin: 20px auto;
+    border: 5px solid black;
+    background-position: center;
+    background-size: cover;
+}
+
+
+figure:hover{
+    background-image: url('../img/imgMenu.png');
+    background-position: center;
+    background-size: cover;
+    display: block;
+    width: 15vw;
+    margin: 20px auto;
+    border: 5px solid black;
+    transition-duration: 0.5s;
+}
+
+div p{
+    padding: 20px;
+}
+
+#menu > div{
+    margin-top: 30px;
+}
+
+#menu > div > a > div:hover{
+    background-color: rgba(5, 5, 32, 0.842);
+    color: rgb(157, 219, 157);
+}
+#menu > div > a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    margin: 10%;
+}
+
+nav > div img{
+    width: 50px;
+    margin-left: 10px;
+}
+nav > div , nav > div > div{
+    display: inline-block;
+}
+
+.instaLabels{
+    opacity: 0;
+    transition-duration: 0.4s;
+    
+}
+
+
+nav > div:hover{
+    cursor: pointer;
+}
+
+#instaLogo:hover{
+    filter: drop-shadow(1px 1px 2px rgb(255, 255, 255));
+    transition-duration: 0.5s;
+}
+
+#pictureLogo:hover{
+    filter: drop-shadow(1px 1px 2px rgb(255, 255, 255));
+    transition-duration: 0.1s;
+}
+
+#reelsLogo:hover{
+    filter: drop-shadow(1px 1px 2px rgb(255, 255, 255));
+    transition-duration: 0.1s;
+}
+
+#instaNav{
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: 40px;
+
+}
+
+
+/**/
+
+
+.githubLabels{
+    opacity: 0;
+    transition-duration: 0.4s;
+    
+}
+
+
+#githubLogo:hover{
+    filter: drop-shadow(1px 1px 2px white);
+    transition-duration: 0.5s;
+}
+
+#repositorioLogo:hover{
+    filter: drop-shadow(1px 1px 2px rgb(255, 255, 255));
+    transition-duration: 0.1s;
+}
+
+#pagesLogo:hover{
+    filter: drop-shadow(1px 1px 2px rgb(255, 255, 255));
+    transition-duration: 0.1s;
+}
+
+#githubNav{
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: 40px;
+
+}
+
+
+/**/
+
+
+.youtubeLabels{
+    opacity: 0;
+    transition-duration: 0.4s;
+    
+}
+
+
+#youtubeLogo:hover{
+    filter: drop-shadow(1px 1px 2px rgb(255, 255, 255));
+    transition-duration: 0.5s;
+}
+
+#subscribeLogo:hover{
+    filter: drop-shadow(1px 1px 2px rgb(255, 255, 255));
+    transition-duration: 0.1s;
+}
+
+#playlistLogo:hover{
+    filter: drop-shadow(1px 1px 2px rgb(255, 255, 255));
+    transition-duration: 0.1s;
+}
+
+#youtubeNav{
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: 40px;
+
+}
+
+
+/**/
+
+.linkedinLabels{
+    opacity: 0;
+    transition-duration: 0.4s;
+    
+}
+
+
+#linkedinLogo:hover{
+    filter: drop-shadow(1px 1px 2px rgb(255, 255, 255));
+    transition-duration: 0.5s;
+}
+
+#whatsappLogo:hover{
+    filter: drop-shadow(1px 1px 2px rgb(255, 255, 255));
+    transition-duration: 0.1s;
+}
+
+#emailLogo:hover{
+    filter: drop-shadow(1px 1px 2px rgb(255, 255, 255));
+    transition-duration: 0.1s;
+}
+
+#linkedinNav{
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: 40px;
+
+}
+
+/**/
+
+.divisao{
+    background-color: black;
+    height: 2px;
+}
+
+#youtube:hover{
+    background-color: red;
+    transition-duration: 1s;
+}
+
+#contatos:hover{
+    background-color: rgb(9, 255, 0);
+    transition-duration: 1s;
+}
+
+#instagramDiv:hover{
+    background-color: rgb(212, 0, 81);
+    transition-duration: 1s;
+}
+
+#githubDiv:hover{
+    background-color: rgb(92, 81, 248);
+    transition-duration: 1s;
 }
