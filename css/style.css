@@ -230,7 +230,7 @@ nav > div:hover{
     height: 2px;
 }
 
-#youtube:hover{
+#youtubeDiv:hover{
     background-color: red;
     transition-duration: 1s;
 }
