@@ -8,7 +8,9 @@
 }
 
 body{
-    background-color: rgb(119, 119, 189);
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header > h1{
@@ -18,6 +20,7 @@ header > h1{
     padding-top: 10px;
     font-family: 'Dancing Script', cursive;
     margin-top: 30px;
+    text-shadow: 1px 1px 1px black;
 }
 
 div{
@@ -76,8 +79,25 @@ footer > p{
     text-align: center;
     color: white;
     font-style: italic;
+    text-shadow: 1px 1px 1px black;
 }
 
-footer > p > span{
+
+footer > p{
+    background-color: rgb(77, 67, 167);
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px black;
+}
+
+p a{
+    color: white;
+    text-decoration: none;
+}
+
+p  a:hover{
     text-decoration: underline;
 }
