@@ -53,3 +53,7 @@ function leaveLinkedinNav(){
     labelsGit.style.opacity = "0";
     labelsGit.style.visibility = "hidden";
 }
+
+
+///////
+

@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Patrick+Hand&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(119, 119, 189);
+}
+
+header > h1{
+    height: 10vh;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 30px;
+}
+
+div{
+    max-width: fit-content;
+    background-color: rgb(77, 67, 167);
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px black;
+    padding: 20px 20px;
+}
+
+form{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+#name{
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: -55px;
+    height: 30px;
+    box-shadow: 1px 1px 4px rgb(0, 0, 0);
+}
+
+#email{
+    box-shadow: 1px 1px 4px rgb(0, 0, 0);
+    border-radius: 10px;
+    border: none;   
+    margin-bottom: 10px;
+    width: 225px;
+    height: 30px;
+}
+
+#button{
+    box-shadow: 1px 1px 4px rgb(0, 0, 0);
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+#email, #name{
+ padding-left: 10px;
+}
+
+#textarea{
+    box-shadow: 1px 1px 4px rgb(0, 0, 0);
+    border-radius: 10px;
+    border: none;
+    resize: none;
+    padding: 10px;
+}
+
+footer > p{
+    margin-top: 15px;
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+footer > p > span{
+    text-decoration: underline;
+}
